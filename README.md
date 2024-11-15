@@ -17,18 +17,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
 ## Packages
+
 ### Code formatting
-  - [prettier](https://prettier.io/)
-    - A code formatter to enforce consistent code style.
-    - 일관된 코드 스타일을 강제하기 위한 코드 포맷터
-  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
-    - When using ESLint, turn off all ESLint rules that are unnecessary or might conflict with Prettier.
-    - ESLint와 함께 사용할 때, 필요없거나 Prettier와 충돌하는 모든 ESLint 규칙을 비활성화
+
+- [prettier](https://prettier.io/)
+  - A code formatter to enforce consistent code style.
+  - 일관된 코드 스타일을 강제하기 위한 코드 포맷터
+- [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+  - When using ESLint, turn off all ESLint rules that are unnecessary or might conflict with Prettier.
+  - ESLint와 함께 사용할 때, 필요없거나 Prettier와 충돌하는 모든 ESLint 규칙을 비활성화
 
 ### Commit Messages formatting
+
 - [@commitlint/cli](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/cli)
   - A command-line tool for checking commit messages
   - 커밋 메시지 검사를 위한 CLI 도구
 - [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
   - A setup for enforcing [Conventional Commits](https://www.conventionalcommits.org/) rules on commit messages
   - 커밋 메시지에 [Conventional Commits](https://www.conventionalcommits.org/) 규칙을 적용하는 설정
+
+### Git hooks
+
+- [husky](https://typicode.github.io/husky/)
+  - An automation tool that uses Git hooks to run tasks like linting and testing before commits or pushes
+  - Git 훅을 사용해 커밋이나 푸시 전에 린팅, 테스트 등의 작업을 실행하는 자동화 도구
+- [lint-staged](https://github.com/lint-staged/lint-staged)
+  - A tool for linting Git-staged files
+  - Git에 스테이징된 파일에만 린팅 작업을 수행하는 도구
