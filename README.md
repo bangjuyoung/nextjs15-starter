@@ -24,3 +24,11 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
   - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
     - When using ESLint, turn off all ESLint rules that are unnecessary or might conflict with Prettier.
     - ESLint와 함께 사용할 때, 필요없거나 Prettier와 충돌하는 모든 ESLint 규칙을 비활성화
+
+### Commit Messages formatting
+- [@commitlint/cli](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/cli)
+  - A command-line tool for checking commit messages
+  - 커밋 메시지 검사를 위한 CLI 도구
+- [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional)
+  - A setup for enforcing [Conventional Commits](https://www.conventionalcommits.org/) rules on commit messages
+  - 커밋 메시지에 [Conventional Commits](https://www.conventionalcommits.org/) 규칙을 적용하는 설정
