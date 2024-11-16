@@ -24,6 +24,7 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 - [nextjs](https://nextjs.org/) ⎯ The React Web Framework (app router)
 - [tailwindcss](https://tailwindcss.com/) ⎯ A utility-first CSS framework
+  - [Autoprefixer](https://github.com/postcss/autoprefixer) ⎯ A plugin that automatically adds vendor prefixes to CSS for better browser compatibility, using Can I Use
 - [eslint with nextjs](https://nextjs.org/docs/app/api-reference/config/eslint) ⎯ A tool for detecting issues and maintaining quality in ECMAScript/JavaScript/Typescript code
 
 ## Tool
