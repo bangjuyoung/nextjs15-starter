@@ -20,21 +20,21 @@ This project uses [`next/font`](https://nextjs.org/docs/app/building-your-applic
 
 ## Packages
 
-## Core
+#### Core
 
 - [nextjs](https://nextjs.org/) ⎯ The React Web Framework (app router)
 - [tailwindcss](https://tailwindcss.com/) ⎯ A utility-first CSS framework
-  - [Autoprefixer](https://github.com/postcss/autoprefixer) ⎯ A plugin that automatically adds vendor prefixes to CSS for better browser compatibility, using Can I Use
-- [eslint with nextjs](https://nextjs.org/docs/app/api-reference/config/eslint) ⎯ A tool for detecting issues and maintaining quality in ECMAScript/JavaScript/Typescript code
+  - [autoprefixer](https://github.com/postcss/autoprefixer) ⎯ Automatically adds vendor prefixes to CSS for browser compatibility, using Can I Use
+- [eslint with nextjs](https://nextjs.org/docs/app/api-reference/config/eslint) ⎯ Detecting issues and maintaining quality in ECMAScript/JavaScript/Typescript code
 
-## Tool
+#### Tool
 
 - code formatting
   - [prettier](https://prettier.io/) ⎯ A code formatter to enforce consistent code style
-  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) ⎯ When using ESLint, turn off all ESLint rules that are unnecessary or might conflict with Prettier
+  - [eslint-config-prettier](https://github.com/prettier/eslint-config-prettier) ⎯ Turn off all ESLint rules that are unnecessary or might conflict with Prettier
 - commit message formatting
-  - [@commitlint/cli](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/cli) ⎯ A command-line tool for checking commit messages
+  - [@commitlint/cli](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/cli) ⎯ Checking commit messages
   - [@commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional) ⎯ A setup for enforcing [Conventional Commits](https://www.conventionalcommits.org/) rules on commit messages
 - git hooks
-  - [husky](https://typicode.github.io/husky/) ⎯ An automation tool that uses Git hooks to run tasks like linting and testing before commits or pushes
-  - [lint-staged](https://github.com/lint-staged/lint-staged) ⎯ A tool for linting Git-staged files
+  - [husky](https://typicode.github.io/husky/) ⎯ Use Git hooks to run tasks like linting and testing before commits or pushes
+  - [lint-staged](https://github.com/lint-staged/lint-staged) ⎯ Linting Git-staged files
